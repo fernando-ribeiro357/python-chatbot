@@ -67,7 +67,7 @@ def prompt():
             console = Console()
             markdown = Markdown(resposta)
             console.print(markdown)
-            # tts(resposta)
+            tts(resposta)
             print('\n')
 
         print('Obrigado por me consultar, estarei sempre aqui para te ajudar. 🤖\n')
